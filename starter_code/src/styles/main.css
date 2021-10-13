@@ -1,3 +1,36 @@
+/*nombreVariable: asigno un valor*/
+
+:root{
+    --fontBase:'Popins', sans-serif;
+    --headline2: bold 59px/96px var(--fontBase);
+    --headline5: bold 24px/39px var(--fontBase);
+    --body1: bold 16px/25px var(--fontBase);
+    --green :#42E2B8;
+    --purple: #310A90;
+    --white: #FFFFFF ;
+    --gray: #858C94;
+}
+
 body{
     background-color: aqua;
+    font-family: var(--fontBase);
+    font-size: 16px;
+    color:#310A90;
 }
+
+.hero-content h2 {
+    font-size: 92px;
+    font-family: var(--fontBase);
+    font-stretch:ultra-expanded;
+}
+
+.hero-content h5 {
+    /*font-size: 60px;*/
+    /*font-family: var(--fontBase);*/
+    font: var(--headline5)
+}
+
+.hero-content p{
+    font: var(--body1);
+}
+
