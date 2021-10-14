@@ -1,0 +1,23 @@
+
+/*styles about me*/
+/*px-> absoluta* como los pixeles*/
+#about-me{
+    /*height:1000px ;*/
+    /*background-color: violet;*/
+}
+
+
+/*vh (view porthead)-> flexible*. Para adaptarlo al tamaño de la pagina deonde se ve L página
+relativa al viewport (donde lo vas a visualizar, telefono, computadora, tableta...)*/
+/* 100vh=100% */
+/*em= medida relativa*/
+#about-me{
+    height: 50vh;
+    width: 100%;
+    font-size: 10px;
+    background-color: violet;
+}
+
+.about-me-container h2{
+    font-size: 1.6em;
+}

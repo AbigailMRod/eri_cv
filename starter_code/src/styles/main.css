@@ -1,5 +1,13 @@
 /*nombreVariable: asigno un valor*/
 
+@import url(./hero.css);
+@import url(./about-me.css);
+@import url(./social-btns.css);
+@import url(./social-btns.css);
+@import url(./nav-bar.css);
+@import url(./education-hero.css);
+
+/*para declarar variables se usa el :root*/
 :root{
     --fontBase:'Popins', sans-serif;
     --headline2: bold 59px/96px var(--fontBase);
@@ -12,25 +20,10 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: rgb(4, 29, 29);
     font-family: var(--fontBase);
     font-size: 16px;
     color:#310A90;
-}
-
-.hero-content h2 {
-    font-size: 92px;
-    font-family: var(--fontBase);
-    font-stretch:ultra-expanded;
-}
-
-.hero-content h5 {
-    /*font-size: 60px;*/
-    /*font-family: var(--fontBase);*/
-    font: var(--headline5)
-}
-
-.hero-content p{
-    font: var(--body1);
+    margin: 15px;
 }
 

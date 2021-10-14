@@ -1,0 +1,34 @@
+
+.btns-social{
+    background: var(--white);
+    /*border-top: 2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border styel -solid
+    border-color -purple*/
+    border: 2px solid var(--purple); 
+    padding: 5px;
+    height: 24px;
+    width: 24px;
+    border-radius: 3px;
+}
+.btns{
+    background: var(--purple);
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    font: var(--fontBase);
+}
+/*como se va a ver la pantalla*/
+#social-btns{
+    display: flex; /*de tipo flexible*/
+    /*flex-direction: column; /*para que sea columna */
+    /*flex-direction: row; para que sea en renglon*/
+    justify-content: flex-start; /*para que los acomode al inicio*/
+    /*justify-content: center; para acomodarlos al centro */
+    /*justify-content: space-between; para tener espacio entre ellos*/
+    gap: 10px; /*para poner espacios entre los elementos*/
+}

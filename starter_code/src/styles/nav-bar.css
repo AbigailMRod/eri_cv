@@ -1,0 +1,18 @@
+
+.bar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.bar{
+    list-style: none;
+}
+.bar li a{
+    text-decoration: none; /*para quitarle los estilos a las urls*/
+    text-transform: uppercase; /* para poner en mayúsculas las letras */
+    color:black;
+
+}

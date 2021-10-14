@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
          <meta charset="UTF-8">
-         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta http-equiv="+-UA-Compatible" content="IE=edge">
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title> CV Abigail </title>
     <!-- Here goes your styles -->
@@ -14,15 +14,15 @@
     </head> <!--en head-->
 
     <body>
-        <nav>
-            <ul>
+        <nav id="nav-bar">
+            <ul class="bar">
                 <li>
                     <a href="#">
                         Acerca de mi
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="./pages/education.html" target="_blank">
                         Educación
                     </a>
                 </li>
@@ -51,40 +51,44 @@
                     Java Full stack Developer que le encanta implementar soluciones 
                     innovadoras que inspiren y atraigan a las personas
                 </p>
-                <div>
+                <div id="social-btns">
                     <a href="https://www.linkedin.com/in/abigail-mu%C3%B1oz-rodr%C3%ADguez-a91b3b210/" target="_blank">
-                        <img src="./src/img/link.png" alt="icon linkedin" width="25" height="25">
+                        <img class="btns-social" src="./src/img/link.png" alt="icon linkedin">
                     </a>
                     <a href="https://www.instagram.com/abifq/?hl=es-la" target="_blank">
-                        <img src="./src/img/icon-instagram.png" alt=" icon icon instagram">
+                        <img class="btns-social" src="./src/img/icon-instagram.png" alt=" icon icon instagram">
                     </a>
                     <a href="https://twitter.com/abigailmzrguez">
-                        <img src="./src/img/icon-twitter_squared.png" alt=" icon twitter">                    
+                        <img class="btns-social" src="./src/img/icon-twitter_squared.png" alt=" icon twitter">                    
                     </a>
                     <a href="#">
-                        <img src="./src/img/icon-phone.png" alt="icon phone">
+                        <img class="btns-social" src="./src/img/icon-phone.png" alt="icon phone">
                     </a>
                     <a href="#">
-                        <img src="./src/img/mail.png" alt="icon mail">
+                        <img class="btns-social" src="./src/img/mail.png" alt="icon mail">
                     </a>
                 </div> <!--social media icons-->
-                <button>
-                    Descargar currículum
+                <button class="btns">
+                    DESCARGAR CURRÍCULUM
                 </button>
             </div> <!--info about me-->
             <div class="hero-img">
-                <img src="./src/img/WhatsApp Image 2021-10-12 at 7.30.14 PM.jpeg" 
-                alt="Abi profile img" width="175" height="300">
+                <img src="./src/img/IMG_20210424_113743.jpg" 
+                alt="Abi profile img" width="200" height="400">
             </div> <!--image about me-->
         </section> <!--end section about me-->
 
-        <section>
-            <h3>
-                Participé en <a href="https://mexico.generation.org/" target="_blank"> @GenerationMX</a>
-                y realicé varios proyectos
-            </h3>
-            <p><strong>Aquí hay algunos que me gustaría compartir</strong></p>
-            <img src="./src/img/arrow-down.svg" alt="icon arrow">
+        <section id="about-me">
+            <div class="about-me-container">
+                <h2>
+                    Participé en <a href="https://mexico.generation.org/" target="_blank"> @GenerationMX</a>
+                    y realicé varios proyectos
+                </h2>
+                <p><strong>Aquí hay algunos que me gustaría compartir</strong></p>
+            </div>
+            <div>
+                <img src="./src/img/arrow-down.svg" alt="icon arrow">
+            </div>
         </section> <!--end section info-->
 
         <section>
@@ -100,10 +104,10 @@
             <div>
                 <img src="./src/img/MARVEL.jpg" alt="marvel image" width="300" height="300">
             </div> <!--img project-->
-            <button>
-                <a href="#">
+            <button class="btns"> Ver proyecto
+                <!--<a href="#">
                     Ver proyecto
-                </a>
+                </a>-->
             </button>
             <button>
                 <a href="#">
@@ -138,10 +142,10 @@
             <div>
                 <img src="./src/img/5c6ffa4f683383299775f546fdc9fb06.jpg" alt="Avici img">
             </div> <!--img project-->
-            <button>
-                <a href="#">
+            <button class="btns"> Ver proyecto
+                <!--<a href="#">
                     Ver proyecto
-                </a>
+                </a>-->
             </button>
             <button>
                 <a href="#">
@@ -181,10 +185,32 @@
                     <input type="text" name="message" id="id">
                 </div> <!--for message-->
                 <div>
-                    <input type="submit" value="Enviar mensaje">
+                    <input class="btns" type="submit" value="Enviar mensaje">
                 </div>
             </form> <!--form contact-->   
         </section> <!--section form contact-->
 
+        <footer>
+            <div id="social-btns">
+                <a href="https://www.linkedin.com/in/abigail-mu%C3%B1oz-rodr%C3%ADguez-a91b3b210/" target="_blank">
+                    <img class="btns-social" src="./src/img/link.png" alt="icon linkedin">
+                </a>
+                <a href="https://www.instagram.com/abifq/?hl=es-la" target="_blank">
+                    <img class="btns-social"src="./src/img/icon-instagram.png" alt=" icon icon instagram">
+                </a>
+                <a href="https://twitter.com/abigailmzrguez">
+                    <img class="btns-social" src="./src/img/icon-twitter_squared.png" alt=" icon twitter">                    
+                </a>
+                <a href="#">
+                    <img class="btns-social" src="./src/img/icon-phone.png" alt="icon phone">
+                </a>
+                <a href="#">
+                    <img class="btns-social" src="./src/img/mail.png" alt="icon mail">
+                </a>
+            </div> <!--social media icons-->
+
+        </footer>
+
     </body>
 </html>
+
