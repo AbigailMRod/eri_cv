@@ -4,7 +4,9 @@
     background-color: tomato;
     padding: 20px;
 }
-
+@media (max-width: 600px){
+    
+}
 .hero-content h2 {
     font-size: 92px;
     font: var(--headline2);
@@ -40,4 +42,6 @@
     border-radius: 20px;
     justify-content: flex-end;
 }
+
+
 
